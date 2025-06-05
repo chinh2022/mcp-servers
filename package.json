@@ -1,0 +1,21 @@
+{
+    "name": "mcp-servers",
+    "version": "1.0.0",
+    "description": "Collection of MCP servers for various services",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "jest"
+    },
+    "dependencies": {
+      "youtube-transcript": "^1.0.6",
+      "@google/generative-ai": "^0.2.0",
+      "winston": "^3.11.0",
+      "googleapis": "^128.0.0",
+      "figma-api": "^1.0.0",
+      "jira-client": "^8.2.2"
+    },
+    "devDependencies": {
+      "jest": "^29.0.0"
+    }
+  }
