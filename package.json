@@ -21,19 +21,21 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "youtube-transcript": "^1.0.6",
     "@google/generative-ai": "^0.2.0",
-    "winston": "^3.11.0",
-    "googleapis": "^128.0.0",
+    "dotenv": "^16.5.0",
     "figma-api": "^1.0.0",
-    "jira-client": "^8.2.2"
+    "google-auth-library": "^9.0.0",
+    "googleapis": "^129.0.0",
+    "jira-client": "^8.2.2",
+    "winston": "^3.17.0",
+    "youtube-transcript": "^1.0.6"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "typescript": "^5.0.0",
-    "jest": "^29.0.0",
     "@types/jest": "^29.0.0",
-    "ts-jest": "^29.0.0"
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
   },
   "files": [
     "dist",
